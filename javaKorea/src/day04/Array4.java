@@ -17,55 +17,55 @@ public class Array4 {
 		int idx;		// 입력받은 문자열의 값과 동일한 문자열의 위치를 백업해둘 변수
 		Scanner sc = new Scanner(System.in);
 		
-//		while(true) {
-//			for(int i=0; i<5; i++) {
-//				System.out.println("어느 나라의 수도가 궁금하신가요? ");
-//				nations[i] = sc.next();
-//				if(nations[i].equals("한국")) {
-//					System.out.println(cities[0]+"입니다");
-//					continue;
-//				}else if(nations[i].equals("대한민국")) {
-//					System.out.println(cities[1]+"입니다");
-//					continue;
-//				}
-//				else if(nations[i].equals("일본")) {
-//					System.out.println(cities[2]+"입니다");
-//					continue;
-//				}
-//				else if(nations[i].equals("미국")) {
-//					System.out.println(cities[3]+"입니다");
-//					continue;
-//				}
-//				else if(nations[i].equals("중국")) {
-//					System.out.println(cities[4]+"입니다");
-//					continue;
-//				}else {
-//					System.out.println("없는 나라입니다");
-//					continue;
-//				}
-//			}
-//		}
-		System.out.println("어느 나라의 수도가 궁금하신가요? ");
-		in = sc.next();
-		for(int i=0; i<5; i++) {
-			if(in.equals(nations[i])) {
-				System.out.println(cities[i]+"입니다");
-				break;
-			}else if(in.equals(nations[i])) {
-				System.out.println(cities[i]+"입니다");
-				break;
-			}else if(in.equals(nations[i])) {
-				System.out.println(cities[i]+"입니다");
-				break;
-			}else if(in.equals(nations[i])) {
-				System.out.println(cities[i]+"입니다");
-				break;
-			}else if(in.equals(nations[i])) {
-				System.out.println(cities[i]+"입니다");
-				break;
-			}else {
-				System.out.println("없는 나라입니다");
+		while(true) {
+			for(int i=0; i<5; i++) {
+				System.out.println("어느 나라의 수도가 궁금하신가요? ");
+				nations[i] = sc.next();
+				if(nations[i].equals("한국")) {
+					System.out.println(cities[0]+"입니다");
+					continue;
+				}else if(nations[i].equals("대한민국")) {
+					System.out.println(cities[1]+"입니다");
+					continue;
+				}
+				else if(nations[i].equals("미국")) {
+					System.out.println(cities[2]+"입니다");
+					continue;
+				}
+				else if(nations[i].equals("일본")) {
+					System.out.println(cities[3]+"입니다");
+					continue;
+				}
+				else if(nations[i].equals("중국")) {
+					System.out.println(cities[4]+"입니다");
+					continue;
+				}else {
+					System.out.println("없는 나라입니다");
+					continue;
+				}
 			}
 		}
+//		System.out.println("어느 나라의 수도가 궁금하신가요? ");
+//		in = sc.next();
+//		for(int i=0; i<5; i++) {
+//			if(in.equals(nations[i])) {
+//				System.out.println(cities[i]+"입니다");
+//				break;
+//			}else if(in.equals(nations[i])) {
+//				System.out.println(cities[i]+"입니다");
+//				break;
+//			}else if(in.equals(nations[i])) {
+//				System.out.println(cities[i]+"입니다");
+//				break;
+//			}else if(in.equals(nations[i])) {
+//				System.out.println(cities[i]+"입니다");
+//				break;
+//			}else if(in.equals(nations[i])) {
+//				System.out.println(cities[i]+"입니다");
+//				break;
+//			}else {
+//				System.out.println("없는 나라입니다");
+//			}
+//		}
 	}
 }
